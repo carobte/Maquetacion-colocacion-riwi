@@ -1,3 +1,4 @@
+/* Estilos iniciales CSS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
@@ -9,14 +10,45 @@
 
 :root{
     --purple-riwi: #6b5cff;
+    --gris: #F4F6F6;
 }
+
+/* Encabezado */
 
 #header{
     display: flex;
     align-items: center;
-    border-bottom: 2px solid var(--purple-riwi)
+    gap: 10px;
+    border-bottom: 2px solid var(--purple-riwi);
+    background-color: var(--gris);
 }
 
 #header img{
     width: 200px;
+}
+
+/* -- Sección etapa básica -- */
+
+#basica{
+    background-color: var(--gris);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo{
+    position: sticky;
+    margin-left: 15px;
+}
+
+.lenguaje{
+    display: flex;
+    width: 45%;
+    text-align: center;
+}
+
+.lenguaje img{
+    height: 50px;
 }
