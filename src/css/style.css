@@ -4,3 +4,17 @@
     bottom: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --purple-riwi: #6b5cff;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--purple-riwi)
+}
+
+#header img{
+    width: 200px;
+}
